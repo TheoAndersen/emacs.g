@@ -39,6 +39,9 @@
 [submodule "evil"]
 	path = lib/evil
 	url = git@github.com:emacs-evil/evil.git
+[submodule "exec-path-from-shell"]
+	path = lib/exec-path-from-shell
+	url = git@github.com:purcell/exec-path-from-shell.git
 [submodule "fisk"]
 	path = lib/fisk
 	url = https://github.com/emacscollective/emacs.g.git
@@ -85,7 +88,7 @@
 [submodule "with-editor"]
 	path = lib/with-editor
 	url = git@github.com:magit/with-editor.git
-	
+
 [submodule "zenburn-theme"]
 	path = lib/zenburn-theme
 	url = git@github.com:bbatsov/zenburn-emacs.git
