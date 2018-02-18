@@ -39,8 +39,8 @@
         ;; ...and don't go bananas when scrolling
         scroll-conservatively 10000)
   ;; Make it difficult to quit emacs
-  (define-key ctl-x-map (kbd "C-S-c") 'save-buffers-kill-terminal)
-  (define-key ctl-x-map (kbd "C-c") 'delete-frame)
+;;  (define-key ctl-x-map (kbd "C-S-c") 'save-buffers-kill-terminal)
+;;  (define-key ctl-x-map (kbd "C-c") 'delete-frame)
   ;; Remove warnings when using certain commands
   (put 'narrow-to-region 'disabled nil)
   ;; auto load files when they change on disk
@@ -146,6 +146,7 @@
 (progn ; personalize
   (let* ((files (list "config/fundamental-mode"
                       "config/evil-mode"
+                      "config/prog-mode"
                       user-real-login-name)) ; load USER-NAME.el
          (default-directory user-emacs-directory))
     (dolist (f files)

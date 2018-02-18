@@ -29,6 +29,12 @@
 [submodule "diff-hl"]
 	path = lib/diff-hl
 	url = git@github.com:dgutov/diff-hl.git
+[submodule "diminish"]
+	path = lib/diminish
+	url = git@github.com:myrjola/diminish.el.git
+[submodule "elm-mode"]
+	path = lib/elm-mode
+	url = git@github.com:jcollard/elm-mode.git
 [submodule "emacsql"]
 	path = lib/emacsql
 	url = git@github.com:skeeto/emacsql.git
@@ -42,6 +48,9 @@
 [submodule "exec-path-from-shell"]
 	path = lib/exec-path-from-shell
 	url = git@github.com:purcell/exec-path-from-shell.git
+[submodule "f"]
+	path = lib/f
+	url = git@github.com:rejeep/f.el.git
 [submodule "fisk"]
 	path = lib/fisk
 	url = https://github.com/emacscollective/emacs.g.git
@@ -54,6 +63,9 @@
 [submodule "git-modes"]
 	path = lib/git-modes
 	url = git@github.com:magit/git-modes.git
+[submodule "haskell-mode"]
+	path = lib/haskell-mode
+	url = git@github.com:haskell/haskell-mode.git
 [submodule "ivy"]
 	path = lib/ivy
 	url = git@github.com:abo-abo/swiper.git
@@ -76,6 +88,10 @@
 [submodule "ripgrep"]
 	path = lib/ripgrep
 	url = git@github.com:nlamirault/ripgrep.el.git
+
+[submodule "s"]
+	path = lib/s
+	url = git@github.com:magnars/s.el.git
 [submodule "shackle"]
 	path = lib/shackle
 	url = git@github.com:wasamasa/shackle.git
@@ -88,7 +104,6 @@
 [submodule "with-editor"]
 	path = lib/with-editor
 	url = git@github.com:magit/with-editor.git
-
 [submodule "zenburn-theme"]
 	path = lib/zenburn-theme
 	url = git@github.com:bbatsov/zenburn-emacs.git

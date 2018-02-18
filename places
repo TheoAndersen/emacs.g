@@ -1,6 +1,26 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/theo/.emacs.g/init.el" . 3486)
- ("/Users/theo/.emacs.g/.gitmodules" . 52)
- ("/Users/theo/.emacs.g/config/fundamental-mode.el" . 6221)
- ("/Users/theo/.emacs.g/config/evil-mode.el" . 86)
- ("/Users/theo/.emacs.g/theo.el" . 2198))
+(("/Users/theo/.emacs.g/.gitmodules" . 52)
+ ("/Users/theo/.emacs.g/lib/elm-mode/elm-interactive.el" . 39553)
+ ("/Users/theo/.emacs.g/lib/elm-mode/elm-mode.el" . 1007)
+ ("/Users/theo/.emacs.g/lib/elm-mode/elm-util.el" . 725)
+ ("/Users/theo/.emacs.g/lib/elm-mode/elm-tags.el" . 754)
+ ("/Users/theo/.emacs.g/lib/elm-mode/"
+  (dired-filename . "/Users/theo/.emacs.g/lib/elm-mode/elm-util.el"))
+ ("/Users/theo/Documents/projects/nine/"
+  (dired-filename . "/Users/theo/Documents/projects/nine/virkrtheo"))
+ ("/Users/theo/Documents/projects/nine/virkrtheo/"
+  (dired-filename . "/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm"))
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/"
+  (dired-filename . "/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src"))
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src/"
+  (dired-filename . "/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src/Main.elm"))
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src/Main.elm" . 237)
+ ("/Users/theo/"
+  (dired-filename . "/Users/theo/.emacs.g"))
+ ("/Users/theo/.emacs.g/"
+  (dired-filename . "/Users/theo/.emacs.g/theo.el"))
+ ("/Users/theo/.emacs.g/theo.el" . 1259)
+ ("/Users/theo/.emacs.g/init.el" . 4597)
+ ("/Users/theo/.emacs.g/config/prog-mode.el" . 811)
+ ("/Users/theo/.emacs.g/config/fundamental-mode.el" . 9164)
+ ("/Users/theo/.emacs.g/config/evil-mode.el" . 86))
