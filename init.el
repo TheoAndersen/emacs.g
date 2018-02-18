@@ -1,3 +1,4 @@
+
 ;;; init.el --- user-init-file                    -*- lexical-binding: t -*-
 ;;; Early birds
 (progn ;     startup
@@ -116,6 +117,7 @@
   :defer t
   :config (setq Man-width 80))
 
+
 (use-package paren
   :config (show-paren-mode))
 
@@ -162,12 +164,17 @@
                                           before-user-init-time))))
             t))
 
-(progn ;     personalize
-  (let ((file (expand-file-name (concat (user-real-login-name) ".el")
-                                user-emacs-directory)))
-    (when (file-exists-p file)
-      (load file))))
-
+(progn ; personalize
+  (let* ((files (list "config/fundamental-mode"
+                      "config/evil-mode"
+                      user-real-login-name)) ; load USER-NAME.el
+         (default-directory user-emacs-directory))
+    (dolist (f files)
+      (let ((file (expand-file-name (concat f ".el"))))
+        (if (file-exists-p file)
+          (progn (load file)
+                 (message "Done loading config file: %s" file))
+          (message "Please create file: %s" file))))))
 ;; Local Variables:
 ;; indent-tabs-mode: nil
 ;; End:

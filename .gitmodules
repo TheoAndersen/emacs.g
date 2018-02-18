@@ -10,6 +10,18 @@
 [submodule "closql"]
 	path = lib/closql
 	url = git@github.com:emacscollective/closql.git
+[submodule "company"]
+	path = lib/company
+	url = git@github.com:company-mode/company-mode.git
+[submodule "company-statistics"]
+	path = lib/company-statistics
+	url = git@github.com:company-mode/company-statistics.git
+[submodule "counsel-projectile"]
+	path = lib/counsel-projectile
+	url = git@github.com:ericdanan/counsel-projectile.git
+[submodule "crux"]
+	path = lib/crux
+	url = git@github.com:bbatsov/crux.git
 [submodule "dash"]
 	path = lib/dash
 	url = git@github.com:magnars/dash.el.git
@@ -24,12 +36,24 @@
 [submodule "epkg"]
 	path = lib/epkg
 	url = git@github.com:emacscollective/epkg.git
+[submodule "evil"]
+	path = lib/evil
+	url = git@github.com:emacs-evil/evil.git
+[submodule "fisk"]
+	path = lib/fisk
+	url = https://github.com/emacscollective/emacs.g.git
+[submodule "flycheck"]
+	path = lib/flycheck
+	url = git@github.com:flycheck/flycheck.git
 [submodule "ghub"]
 	path = lib/ghub
 	url = git@github.com:magit/ghub.git
 [submodule "git-modes"]
 	path = lib/git-modes
 	url = git@github.com:magit/git-modes.git
+[submodule "ivy"]
+	path = lib/ivy
+	url = git@github.com:abo-abo/swiper.git
 [submodule "magit"]
 	path = lib/magit
 	url = git@github.com:magit/magit.git
@@ -37,12 +61,31 @@
 [submodule "magit-popup"]
 	path = lib/magit-popup
 	url = git@github.com:magit/magit-popup.git
+[submodule "material-theme"]
+	path = lib/material-theme
+	url = git@github.com:cpaulik/emacs-material-theme.git
 [submodule "packed"]
 	path = lib/packed
 	url = git@github.com:emacscollective/packed.git
+[submodule "projectile"]
+	path = lib/projectile
+	url = git@github.com:bbatsov/projectile.git
+[submodule "ripgrep"]
+	path = lib/ripgrep
+	url = git@github.com:nlamirault/ripgrep.el.git
+[submodule "shackle"]
+	path = lib/shackle
+	url = git@github.com:wasamasa/shackle.git
+[submodule "swiper"]
+	path = lib/swiper
+	url = https://github.com/emacscollective/emacs.g.git
 [submodule "use-package"]
 	path = lib/use-package
 	url = git@github.com:jwiegley/use-package.git
 [submodule "with-editor"]
 	path = lib/with-editor
 	url = git@github.com:magit/with-editor.git
+	
+[submodule "zenburn-theme"]
+	path = lib/zenburn-theme
+	url = git@github.com:bbatsov/zenburn-emacs.git
