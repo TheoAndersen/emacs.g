@@ -71,19 +71,34 @@ by the Projectile project switcher"
     (interactive)
     ;; Perform cleanup before adding projects
     (projectile-cleanup-known-projects)
-    ;; Find the projects in the structure and add them
-    (let* ((default-directory "~/Development")
-           (project-site-globs '("github.com/*/*" "gitlab.com/*/*")))
-      ;; The project structure is ~/Development/github.com/USER/PROJECT/
+    ;;Find the projects in the structure and add them
+    (let* ((default-directory "~/Documents/projects/")
+           (project-site-globs '("*" "*/*" "github.com/*/*" "gitlab.com/*/*")))
       (dolist (project-site-glob project-site-globs)
         (let ((projects-glob (expand-file-name project-site-glob)))
           (dolist (project (file-expand-wildcards projects-glob))
-            (projectile-add-known-project project)))))
-    ;; Add my Emacs config folder as well ...
-    (projectile-add-known-project "~/.emacs.d"))
-  ;; Run upon initialization
+            (if (not (string-match-p (regexp-quote "DS_Store") project))
+                (projectile-add-known-project project))))))
+    ;;Add my Emacs config folder as well ...
+    (projectile-add-known-project "~/.emacs.g/"))
+  :init
+  (progn
+    (projectile-global-mode)
+    (setq projectile-enable-caching t)
+    (add-to-list 'projectile-globally-ignored-directories "elpa")
+    (add-to-list 'projectile-globally-ignored-directories ".cache")
+    (add-to-list 'projectile-globally-ignored-directories "node_modules")
+    (add-to-list 'projectile-globally-ignored-directories "deps")
+    (add-to-list 'projectile-globally-ignored-directories "_build")
+    (add-to-list 'projectile-globally-ignored-files "#*.*")
+    (add-to-list 'projectile-globally-ignored-files ".DS_Store")
+    (add-to-list 'projectile-globally-ignored-directories ".DS_Store")
+    (add-to-list 'projectile-globally-ignored-directories "TAGS")
+    (add-to-list 'projectile-globally-ignored-directories ".*")
+    )
   :config
-  (mg/update-projectile-project-list))
+  (mg/update-projectile-project-list)
+  )
 
 (use-package counsel-projectile
   :after (counsel projectile)
@@ -136,6 +151,10 @@ Once: (projectile-kill-buffers)"
               ("C-b" . universal-argument-switch-to-buffer)
               ("k" . universal-argument-kill-buffer)
               ("p s" . projectile-ripgrep))
+  :bind (("C-c p p" . counsel-projectile)
+         ("C-c p s s" . counsel-projectile-rg)
+         ("C-c p f" . counsel-projectile-find-file)
+        )
   :config
   (setq projectile-completion-system 'ivy)
   ;; add directories and files to the projectile ignore list

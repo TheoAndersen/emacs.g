@@ -9,7 +9,8 @@
         inhibit-startup-echo-area-message nil
         initial-buffer-choice t
         initial-scratch-message
-        ";; - 'Tis but a scratch!\n;; - A scratch? Your arm's off!\n;; - No, it isn't!\n\n"
+        ";; ▄▄▄ .• ▌ ▄ ·.  ▄▄▄·  ▄▄· .▄▄ ·\n;; ▀▄.▀··██ ▐███▪▐█ ▀█ ▐█ ▌▪▐█ ▀.\n;; ▐▀▀▪▄▐█ ▌▐▌▐█·▄█▀▀█ ██ ▄▄▄▀▀▀█▄\n;; ▐█▄▄▌██ ██▌▐█▌▐█ ▪▐▌▐███▌▐█▄▪▐█\n\n;; “Emacs is like a laser guided missile.\n;;  It only has to be slightly mis-configured\n;;  to ruin your whole day.”  -Sean McGrathi\n\n"
+;;        ";; - 'Tis but a scratch!\n;; - A scratch? Your arm's off!\n;; - No, it isn't!\n\n"
         load-prefer-newer t
         ;; disable files from being created
         create-lockfiles nil
@@ -155,6 +156,7 @@
           (progn (load file)
                  (message "Done loading config file: %s" file))
           (message "Please create file: %s" file))))))
+(message "Your mother was a hamster, and your father smells like elderberries....")
 
 ;; Local Variables:
 ;; indent-tabs-mode: nil
