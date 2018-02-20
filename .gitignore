@@ -3,6 +3,11 @@
 /custom.el
 /elpa
 /var
-/backups/!Users!theo!.emacs.g!.git!COMMIT_EDITMSG~
-/backups/!Users!theo!.emacs.g!init.el~
-lib/
+/auto-save-list
+/history
+/places
+/backups
+/eshell
+/company-statistics-cache.el
+/projectile-bookmarks.eld
+*.elc
