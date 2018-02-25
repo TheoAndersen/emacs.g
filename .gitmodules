@@ -1,9 +1,18 @@
 [borg]
 	pushDefault = locutus
 	collective = emacsg
+[submodule "ace-jump-buffer"]
+	path = lib/ace-jump-buffer
+	url = git@github.com:waymondo/ace-jump-buffer.git
+[submodule "ace-window"]
+	path = lib/ace-window
+	url = git@github.com:abo-abo/ace-window.git
 [submodule "auto-compile"]
 	path = lib/auto-compile
 	url = git@github.com:emacscollective/auto-compile.git
+[submodule "avy"]
+	path = lib/avy
+	url = git@github.com:abo-abo/avy.git
 [submodule "borg"]
 	path = lib/borg
 	url = git@github.com:emacscollective/borg.git
@@ -60,18 +69,25 @@
 [submodule "flycheck"]
 	path = lib/flycheck
 	url = git@github.com:flycheck/flycheck.git
+[submodule "flycheck-elm"]
+	path = lib/flycheck-elm
+	url = git@github.com:bsermons/flycheck-elm.git
 [submodule "ghub"]
 	path = lib/ghub
 	url = git@github.com:magit/ghub.git
 [submodule "git-modes"]
 	path = lib/git-modes
 	url = git@github.com:magit/git-modes.git
+[submodule "gv-define-simple-setter"]
+	path = lib/gv-define-simple-setter
+	url = https://github.com/emacscollective/emacs.g.git
 [submodule "haskell-mode"]
 	path = lib/haskell-mode
 	url = git@github.com:haskell/haskell-mode.git
 [submodule "ivy"]
 	path = lib/ivy
 	url = git@github.com:abo-abo/swiper.git
+
 [submodule "magit"]
 	path = lib/magit
 	url = git@github.com:magit/magit.git
@@ -88,7 +104,9 @@
 [submodule "projectile"]
 	path = lib/projectile
 	url = git@github.com:bbatsov/projectile.git
-
+[submodule "rainbow-delimiters"]
+	path = lib/rainbow-delimiters
+	url = git@github.com:Fanael/rainbow-delimiters.git
 [submodule "ripgrep"]
 	path = lib/ripgrep
 	url = git@github.com:nlamirault/ripgrep.el.git

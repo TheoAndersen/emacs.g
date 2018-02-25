@@ -13,7 +13,8 @@
         '(("*Apropos*" :select t :align below :size 0.5)
           ("*Buffer List*" :select t :align below :size 0.33)
           ("*Help*" :select t :align below :size 0.5)
-          ("*compilation*" :align right :size 0.33)))
+          ("*compilation*" :align right :size 0.5)
+          ("*elm-make*" :align right :size 0.5)))
   (shackle-mode))
 
 (use-package swiper
@@ -257,3 +258,15 @@ current project root"
 ;(define-key global-map (kbd "C--") 'zoom-frm-out)
 ;
 (define-key global-map (kbd "M-<f11>") 'toggle-frame-fullscreen)
+
+;; Jump fast between open windows
+(use-package ace-window
+  :config
+  :bind ("M-o" . ace-window)
+  )
+
+;; Jump fast between buffers
+(use-package ace-jump-buffer
+  :config
+  (unbind-key "M-j")
+  :bind ("M-j" . ace-jump-buffer))
