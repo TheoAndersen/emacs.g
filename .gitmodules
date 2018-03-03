@@ -78,16 +78,22 @@
 [submodule "git-modes"]
 	path = lib/git-modes
 	url = git@github.com:magit/git-modes.git
+[submodule "goto-chg"]
+	path = lib/goto-chg
+	url = git@github.com:emacs-evil/goto-chg.git
 [submodule "gv-define-simple-setter"]
 	path = lib/gv-define-simple-setter
 	url = https://github.com/emacscollective/emacs.g.git
 [submodule "haskell-mode"]
 	path = lib/haskell-mode
 	url = git@github.com:haskell/haskell-mode.git
+
+[submodule "hydra"]
+	path = lib/hydra
+	url = git@github.com:abo-abo/hydra.git
 [submodule "ivy"]
 	path = lib/ivy
 	url = git@github.com:abo-abo/swiper.git
-
 [submodule "magit"]
 	path = lib/magit
 	url = git@github.com:magit/magit.git
