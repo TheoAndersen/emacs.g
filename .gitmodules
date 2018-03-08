@@ -94,6 +94,9 @@
 [submodule "ivy"]
 	path = lib/ivy
 	url = git@github.com:abo-abo/swiper.git
+[submodule "logstash-conf"]
+	path = lib/logstash-conf
+	url = git@github.com:Wilfred/logstash-conf.el.git
 [submodule "magit"]
 	path = lib/magit
 	url = git@github.com:magit/magit.git

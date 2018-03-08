@@ -12,3 +12,5 @@
 /projectile-bookmarks.eld
 *.elc
 *elc
+*.cache
+/theo.el~
