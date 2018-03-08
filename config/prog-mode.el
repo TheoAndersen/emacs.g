@@ -7,6 +7,12 @@
 
 (use-package flycheck-color-mode-line)
 
+(use-package evil-smartparens
+  :hook
+  (emacs-lisp-mode . smartparens-strict-mode)
+  :config
+  (show-smartparens-global-mode))
+
 (use-package elm-mode
   :mode "\\.elm\\'"
   :bind (("M-." . elm-mode-goto-tag-at-point)

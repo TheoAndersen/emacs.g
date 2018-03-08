@@ -54,6 +54,9 @@
 [submodule "evil"]
 	path = lib/evil
 	url = git@github.com:emacs-evil/evil.git
+[submodule "evil-smartparens"]
+	path = lib/evil-smartparens
+	url = git@github.com:expez/evil-smartparens.git
 [submodule "exec-path-from-shell"]
 	path = lib/exec-path-from-shell
 	url = git@github.com:purcell/exec-path-from-shell.git
@@ -75,19 +78,22 @@
 [submodule "flycheck-elm"]
 	path = lib/flycheck-elm
 	url = git@github.com:bsermons/flycheck-elm.git
+[submodule "flycheck-popup-tip"]
+	path = lib/flycheck-popup-tip
+	url = git@github.com:flycheck/flycheck-popup-tip.git
 [submodule "flycheck-pos-tip"]
 	path = lib/flycheck-pos-tip
 	url = git@github.com:flycheck/flycheck-pos-tip.git
 [submodule "ghub"]
 	path = lib/ghub
 	url = git@github.com:magit/ghub.git
+
 [submodule "git-modes"]
 	path = lib/git-modes
 	url = git@github.com:magit/git-modes.git
 [submodule "goto-chg"]
 	path = lib/goto-chg
 	url = git@github.com:emacs-evil/goto-chg.git
-
 [submodule "gv-define-simple-setter"]
 	path = lib/gv-define-simple-setter
 	url = https://github.com/emacscollective/emacs.g.git
@@ -116,6 +122,9 @@
 [submodule "packed"]
 	path = lib/packed
 	url = git@github.com:emacscollective/packed.git
+[submodule "popup"]
+	path = lib/popup
+	url = git@github.com:auto-complete/popup-el.git
 [submodule "pos-tip"]
 	path = lib/pos-tip
 	url = git@github.com:pitkali/pos-tip.git
@@ -134,6 +143,9 @@
 [submodule "shackle"]
 	path = lib/shackle
 	url = git@github.com:wasamasa/shackle.git
+[submodule "smartparens"]
+	path = lib/smartparens
+	url = git@github.com:Fuco1/smartparens.git
 [submodule "swiper"]
 	path = lib/swiper
 	url = https://github.com/emacscollective/emacs.g.git

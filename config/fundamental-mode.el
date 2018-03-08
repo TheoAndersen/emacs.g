@@ -173,16 +173,20 @@ Once: (projectile-kill-buffers)"
 (use-package flycheck-pos-tip
   :after (flycheck))
 
+;; (use-package flycheck-popup-tip
+;;   :after (flycheck))
+
 (global-set-key (kbd "M-n") 'next-error)
 (global-set-key (kbd "M-p") 'previous-error)
+(setq text-scale-mode-step 1.05)
 
 (use-package flycheck
   :config
   (setq-default flycheck-disabled-checkers '(emacs-lisp-checkdoc))
   (progn
     (setq flycheck-highlighting-mode 'symbols)
-    (setq flycheck-display-errors-function #'flycheck-pos-tip-error-messages)
     (add-hook 'flycheck-mode-hook 'flycheck-color-mode-line-mode)
+    (add-hook 'flycheck-mode-hook 'flycheck-pos-tip-mode)
     (set-face-background 'flycheck-error "#660000")
     (set-face-foreground 'flycheck-error nil)
     (set-face-background 'flycheck-warning "#775500")
