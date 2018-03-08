@@ -11,9 +11,8 @@
 /company-statistics-cache.el
 /projectile-bookmarks.eld
 *.elc
-*elc
 *.cache
 /theo.el~
 *.elc
-/*.elc
 places
+
