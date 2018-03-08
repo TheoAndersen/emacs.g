@@ -81,7 +81,7 @@ by the Projectile project switcher"
             (if (not (string-match-p (regexp-quote "DS_Store") project))
                 (projectile-add-known-project project))))))
     ;;Add my Emacs config folder as well ...
-    (projectile-add-known-project "~/.emacs.g/"))
+    (projectile-add-known-project "~/.emacs.d/"))
   :init
   (progn
     (projectile-global-mode)
@@ -154,6 +154,7 @@ Once: (projectile-kill-buffers)"
               ("p s" . projectile-ripgrep))
   :bind (("C-c p p" . counsel-projectile)
          ("C-c p s s" . counsel-projectile-rg)
+         ("C-c p s r" . counsel-projectile-rg)
          ("C-c p f" . counsel-projectile-find-file)
         )
   :config
@@ -262,11 +263,10 @@ current project root"
 ;; Jump fast between open windows
 (use-package ace-window
   :config
-  :bind ("M-o" . ace-window)
+  :bind ("C-c o" . ace-window)
   )
 
 ;; Jump fast between buffers
 (use-package ace-jump-buffer
   :config
-  (unbind-key "M-j")
-  :bind ("M-j" . ace-jump-buffer))
+  :bind ("C-c b" . ace-jump-buffer))

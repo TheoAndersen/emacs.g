@@ -115,7 +115,7 @@
   (setq ns-use-srgb-colorspace t)
   (setq ring-bell-function 'ignore)
   ;; disable osx native fullscreen
-  (setq ns-use-native-fullscreen nil)
+;;  (setq ns-use-native-fullscreen nil)
   (add-hook 'after-init-hook 'toggle-frame-fullscreen))
 
 (use-package dash

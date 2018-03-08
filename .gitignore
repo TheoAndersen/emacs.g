@@ -14,3 +14,6 @@
 *elc
 *.cache
 /theo.el~
+*.elc
+/*.elc
+places
