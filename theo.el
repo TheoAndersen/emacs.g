@@ -16,7 +16,7 @@
      ;; `(org-block-end-line ((t (:box nil))))
      ;; `(org-block ((t (:foreground nil :background "#1e2930"))))
      ;; `(org-code ((t (:background "#1e2930"))))
-     `(flycheck-error ((t (:foreground "pink"))))
+     ;; `(flycheck-error ((t (:background "#5E1E11"))))
      ;; I find this rainbow-delimiters scheme better for non-lisp modes:
      `(rainbow-delimiters-depth-1-face ((,class (:foreground ,"#C0C0C0"))))
      `(rainbow-delimiters-depth-2-face ((,class (:foreground ,"#B388FF"))))
