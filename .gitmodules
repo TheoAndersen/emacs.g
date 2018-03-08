@@ -134,3 +134,6 @@
 [submodule "with-editor"]
 	path = lib/with-editor
 	url = git@github.com:magit/with-editor.git
+[submodule "zenburn"]
+    path = lib/zenburn
+    url = https://github.com/jnurmine/Zenburn.git
