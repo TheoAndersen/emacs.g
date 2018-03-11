@@ -31,6 +31,9 @@
 [submodule "crux"]
 	path = lib/crux
 	url = git@github.com:bbatsov/crux.git
+[submodule "csharp-mode"]
+	path = lib/csharp-mode
+	url = git@github.com:josteink/csharp-mode.git
 [submodule "dash"]
 	path = lib/dash
 	url = git@github.com:magnars/dash.el.git
@@ -41,6 +44,12 @@
 [submodule "diminish"]
 	path = lib/diminish
 	url = git@github.com:myrjola/diminish.el.git
+[submodule "dotnet"]
+	path = lib/dotnet
+	url = git@github.com:julienXX/dotnet.el.git
+[submodule "edit-indirect"]
+	path = lib/edit-indirect
+	url = git@github.com:Fanael/edit-indirect.git
 [submodule "elm-mode"]
 	path = lib/elm-mode
 	url = git@github.com:jcollard/elm-mode.git
@@ -78,6 +87,7 @@
 [submodule "flycheck-elm"]
 	path = lib/flycheck-elm
 	url = git@github.com:bsermons/flycheck-elm.git
+
 [submodule "flycheck-popup-tip"]
 	path = lib/flycheck-popup-tip
 	url = git@github.com:flycheck/flycheck-popup-tip.git
@@ -87,7 +97,6 @@
 [submodule "ghub"]
 	path = lib/ghub
 	url = git@github.com:magit/ghub.git
-
 [submodule "git-modes"]
 	path = lib/git-modes
 	url = git@github.com:magit/git-modes.git
@@ -119,6 +128,9 @@
 [submodule "material-theme"]
 	path = lib/material-theme
 	url = git@github.com:cpaulik/emacs-material-theme.git
+[submodule "mmm-mode"]
+	path = lib/mmm-mode
+	url = git@github.com:purcell/mmm-mode.git
 [submodule "packed"]
 	path = lib/packed
 	url = git@github.com:emacscollective/packed.git
@@ -128,6 +140,9 @@
 [submodule "pos-tip"]
 	path = lib/pos-tip
 	url = git@github.com:pitkali/pos-tip.git
+[submodule "prettier-js"]
+	path = lib/prettier-js
+	url = git@github.com:prettier/prettier-emacs.git
 [submodule "projectile"]
 	path = lib/projectile
 	url = git@github.com:bbatsov/projectile.git
@@ -146,12 +161,21 @@
 [submodule "smartparens"]
 	path = lib/smartparens
 	url = git@github.com:Fuco1/smartparens.git
+[submodule "ssass-mode"]
+	path = lib/ssass-mode
+	url = git@github.com:AdamNiederer/ssass-mode.git
 [submodule "swiper"]
 	path = lib/swiper
 	url = https://github.com/emacscollective/emacs.g.git
 [submodule "use-package"]
 	path = lib/use-package
 	url = git@github.com:jwiegley/use-package.git
+[submodule "vue-html-mode"]
+	path = lib/vue-html-mode
+	url = git@github.com:AdamNiederer/vue-html-mode.git
+[submodule "vue-mode"]
+	path = lib/vue-mode
+	url = git@github.com:CodeFalling/vue-mode.git
 [submodule "with-editor"]
 	path = lib/with-editor
 	url = git@github.com:magit/with-editor.git

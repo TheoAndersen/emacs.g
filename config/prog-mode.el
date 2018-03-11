@@ -2,14 +2,21 @@
   :config
   (global-prettify-symbols-mode))
 
+(use-package prettier-js
+  :config
+  (setq prettier-js-args '
+        ("--no-semi"
+        "--single-quote" "--print-width 120" ))
+  )
+
+
+
 (use-package rainbow-delimiters
   :hook (prog-mode . rainbow-delimiters-mode))
 
 (use-package flycheck-color-mode-line)
 
 (use-package evil-smartparens
-  :hook
-  (emacs-lisp-mode . smartparens-strict-mode)
   :config
   (show-smartparens-global-mode))
 
@@ -41,3 +48,8 @@
   :config
   (flycheck-elm-setup)
   )
+
+(use-package vue-mode
+  :mode "\\.vue\\'"
+  :hook ((vue_mode . prettier-js-mode)) ;; todo, this dosent quite work yet
+)
