@@ -1,29 +1,79 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/theo/.emacs.g/.gitmodules" . 52)
- ("/Users/theo/.emacs.g/config/prog-mode.el" . 811)
- ("/Users/theo/.emacs.g/config/fundamental-mode.el" . 6190)
- ("/Users/theo/.emacs.g/.gitignore" . 152)
- ("/Users/theo/Dropbox/Nine/nine.org" . 26916)
- ("/Users/theo/.emacs.g/config/org-mode.el" . 4856)
+(("/Users/theo/.emacs.d/.gitmodules" . 52)
+ ("/Users/theo/.emacs.d/theo.el" . 2457)
+ ("/Users/theo/.emacs.d/init.el" . 4548)
+ ("/Users/theo/.emacs.d/config/fundamental-mode.el" . 1686)
+ ("/Users/theo/TAGS" . 814320)
+ ("/Users/theo/Documents/projects/elasticsearch/sor/src/docker-compose.yml" . 26)
+ ("/Users/theo/Documents/projects/nine/sds/sds.org" . 20112)
+ ("/Users/theo/Documents/projects/elasticsearch/sor/src/elasticsearch/Dockerfile" . 58)
+ ("/Users/theo/Documents/projects/elasticsearch/sor/sorbrowser/TAGS" . 16508)
+ ("/Users/theo/Documents/projects/elasticsearch/sor/sorbrowser/src/Main.elm" . 3459)
+ ("/Users/theo/Documents/projects/elasticsearch/sor/sorvuebrowser/src/App.vue" . 238)
+ ("/Users/theo/.emacs.d/config/prog-mode.el" . 1253)
+ ("/Users/theo/Documents/projects/elasticsearch/sor/sorvuebrowser/src/components/HelloWorld.vue" . 751)
+ ("/Users/theo/Documents/projects/elasticsearch/sor/sorvuebrowser/"
+  (dired-filename . "/Users/theo/Documents/projects/elasticsearch/sor/sorvuebrowser/src"))
+ ("/Users/theo/Documents/projects/elasticsearch/sor/sorvuebrowser/src/"
+  (dired-filename . "/Users/theo/Documents/projects/elasticsearch/sor/sorvuebrowser/src/main.js"))
+ ("/Users/theo/Documents/projects/elasticsearch/sor/sorvuebrowser/src/main.js" . 250)
+ ("/Users/theo/Documents/projects/elasticsearch/sor/sorbrowser/backend/Test/UnitTest1.cs" . 347)
+ ("/Users/theo/Documents/projects/elasticsearch/sor/sorbrowser/backend/backend/Controllers/SorController.cs" . 1209)
+ ("/Users/theo/Documents/projects/elasticsearch/sor/sorbrowser/todo.org" . 660)
+ ("/Users/theo/Dropbox/Nine/nine.org" . 6354)
+ ("/Users/theo/Documents/projects/elasticsearch/sor/sorbrowser/src/main.css" . 385)
+ ("/Users/theo/Documents/projects/elasticsearch/sor/Sor-7/Sor.xml" . 37790407)
+ ("/Users/theo/.emacs.old/"
+  (dired-filename . "/Users/theo/.emacs.old/.."))
+ ("/Users/"
+  (dired-filename . "/Users/theo"))
+ ("/Users/theo/"
+  (dired-filename . "/Users/theo/.emacs.d.mine"))
+ ("/Users/theo/.emacs.d.mine/"
+  (dired-filename . "/Users/theo/.emacs.d.mine/theo.org"))
+ ("/Users/theo/.emacs.d.mine/theo.org" . 54862)
+ ("/Users/theo/.emacs.d/config/evil-mode.el" . 402)
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/todo.org" . 731)
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/package.json" . 281)
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/tests/elm-package.json" . 513)
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/elm-package.json" . 444)
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/tests/Tests.elm" . 4805)
+ ("/Users/theo/Dropbox/Nine/ting_folk_skal_kunne_i_nine.org" . 1053)
+ ("/Users/theo/Documents/projects/elasticsearch/sor/logstash-6.2.2/config/logstash.yml" . 2028)
+ ("/Users/theo/Documents/projects/elasticsearch/sor/logstash-6.2.2/logstash.conf" . 210)
+ ("/Users/theo/Documents/projects/elasticsearch/"
+  (dired-filename . "/Users/theo/Documents/projects/elasticsearch/sor"))
+ ("/Users/theo/Documents/projects/elasticsearch/sor/"
+  (dired-filename . "/Users/theo/Documents/projects/elasticsearch/sor/load_sor.py"))
+ ("/Users/theo/Documents/projects/elasticsearch/sor/sorbrowser/src/"
+  (dired-filename . "/Users/theo/Documents/projects/elasticsearch/sor/sorbrowser/src/Main.elm"))
+ ("/Users/theo/Documents/projects/elasticsearch/sor/sorbrowser/package.json" . 428)
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src/Data/Virksomhed.elm" . 468)
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src/Data/SearchResult.elm" . 394)
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src/Data/Person.elm" . 584)
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src/Page/Search.elm" . 2246)
+ ("/Users/theo/Documents/projects/elasticsearch/sor/elasticsearch-6.2.2/config/elasticsearch.yml" . 1812)
+ ("/Users/theo/Documents/projects/elasticsearch/sor/load_sor.py" . 363)
+ ("/Users/theo/Documents/projects/nine/sds/sync-ldap-groups-to-svn-authz/sync_ldap_groups_to_svn_authz.py" . 5896)
+ ("/Users/theo/Dropbox/"
+  (dired-filename . "/Users/theo/Dropbox/Icon"))
+ ("/Users/theo/Dropbox/.DS_Store" . 2026)
+ ("/Users/theo/Documents/projects/nine/virkrtheo/.gitignore" . 64)
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src/Main.elm" . 1879)
+ ("/Users/theo/Dropbox/Nine/Tilbud/sor_miniudbud_februar_2018.org" . 5346)
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/TAGS" . 52932)
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src/"
+  (dired-filename . "/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src/Page"))
+ ("/Users/theo/Documents/projects/learnelm/pagesspike/src/Main.elm" . 1151)
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src/Page/"
+  (dired-filename . "/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src/Page/Search.elm"))
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src/Page/Company.elm" . 159)
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src/Route.elm" . 117)
+ ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src/main.css" . 307)
  ("/Users/theo/Dropbox/Musik/Rock/sæt.org" . 462)
- ("/Users/theo/.emacs.g/lib/elm-mode/elm-interactive.el" . 39553)
- ("/Users/theo/.emacs.g/lib/elm-mode/elm-mode.el" . 1007)
- ("/Users/theo/.emacs.g/lib/elm-mode/elm-util.el" . 725)
- ("/Users/theo/.emacs.g/lib/elm-mode/elm-tags.el" . 754)
- ("/Users/theo/.emacs.g/lib/elm-mode/"
-  (dired-filename . "/Users/theo/.emacs.g/lib/elm-mode/elm-util.el"))
  ("/Users/theo/Documents/projects/nine/"
   (dired-filename . "/Users/theo/Documents/projects/nine/virkrtheo"))
  ("/Users/theo/Documents/projects/nine/virkrtheo/"
   (dired-filename . "/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm"))
  ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/"
-  (dired-filename . "/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src"))
- ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src/"
-  (dired-filename . "/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src/Main.elm"))
- ("/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src/Main.elm" . 237)
- ("/Users/theo/"
-  (dired-filename . "/Users/theo/.emacs.g"))
- ("/Users/theo/.emacs.g/"
-  (dired-filename . "/Users/theo/.emacs.g/theo.el"))
- ("/Users/theo/.emacs.g/theo.el" . 1259)
- ("/Users/theo/.emacs.g/config/evil-mode.el" . 86))
+  (dired-filename . "/Users/theo/Documents/projects/nine/virkrtheo/frontend_elm/src")))
