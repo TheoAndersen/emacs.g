@@ -4,178 +4,244 @@
 [submodule "ace-jump-buffer"]
 	path = lib/ace-jump-buffer
 	url = git@github.com:waymondo/ace-jump-buffer.git
+    ignore = dirty
 [submodule "ace-window"]
 	path = lib/ace-window
 	url = git@github.com:abo-abo/ace-window.git
+    ignore = dirty
 [submodule "auto-compile"]
 	path = lib/auto-compile
 	url = git@github.com:emacscollective/auto-compile.git
+    ignore = dirty
 [submodule "avy"]
 	path = lib/avy
 	url = git@github.com:abo-abo/avy.git
+    ignore = dirty
 [submodule "borg"]
 	path = lib/borg
 	url = git@github.com:emacscollective/borg.git
+    ignore = dirty
 [submodule "closql"]
 	path = lib/closql
 	url = git@github.com:emacscollective/closql.git
+    ignore = dirty
 [submodule "company"]
 	path = lib/company
 	url = git@github.com:company-mode/company-mode.git
+    ignore = dirty
 [submodule "company-statistics"]
 	path = lib/company-statistics
 	url = git@github.com:company-mode/company-statistics.git
+    ignore = dirty
 [submodule "counsel-projectile"]
 	path = lib/counsel-projectile
 	url = git@github.com:ericdanan/counsel-projectile.git
+    ignore = dirty
 [submodule "crux"]
 	path = lib/crux
 	url = git@github.com:bbatsov/crux.git
+    ignore = dirty
 [submodule "csharp-mode"]
 	path = lib/csharp-mode
 	url = git@github.com:josteink/csharp-mode.git
+    ignore = dirty
 [submodule "dash"]
 	path = lib/dash
 	url = git@github.com:magnars/dash.el.git
 	no-makeinfo = dash-template.texi
+    ignore = dirty
 [submodule "diff-hl"]
 	path = lib/diff-hl
 	url = git@github.com:dgutov/diff-hl.git
+    ignore = dirty
 [submodule "diminish"]
 	path = lib/diminish
 	url = git@github.com:myrjola/diminish.el.git
+    ignore = dirty
+[submodule "docker-compose-mode"]
+	path = lib/docker-compose-mode
+	url = git@github.com:meqif/docker-compose-mode.git
+    ignore = dirty
 [submodule "dotnet"]
 	path = lib/dotnet
 	url = git@github.com:julienXX/dotnet.el.git
+    ignore = dirty
 [submodule "edit-indirect"]
 	path = lib/edit-indirect
 	url = git@github.com:Fanael/edit-indirect.git
+    ignore = dirty
 [submodule "elm-mode"]
 	path = lib/elm-mode
 	url = git@github.com:jcollard/elm-mode.git
+    ignore = dirty
 [submodule "emacsql"]
 	path = lib/emacsql
 	url = git@github.com:skeeto/emacsql.git
 	no-byte-compile = emacsql-pg.el
+    ignore = dirty
 [submodule "epkg"]
 	path = lib/epkg
 	url = git@github.com:emacscollective/epkg.git
+    ignore = dirty
 [submodule "evil"]
 	path = lib/evil
 	url = git@github.com:emacs-evil/evil.git
+    ignore = dirty
 [submodule "evil-smartparens"]
 	path = lib/evil-smartparens
 	url = git@github.com:expez/evil-smartparens.git
+    ignore = dirty
 [submodule "exec-path-from-shell"]
 	path = lib/exec-path-from-shell
 	url = git@github.com:purcell/exec-path-from-shell.git
+    ignore = dirty
 [submodule "expand-region"]
 	path = lib/expand-region
 	url = git@github.com:magnars/expand-region.el.git
+    ignore = dirty
 [submodule "f"]
 	path = lib/f
 	url = git@github.com:rejeep/f.el.git
+    ignore = dirty
 [submodule "fisk"]
 	path = lib/fisk
 	url = https://github.com/emacscollective/emacs.g.git
+    ignore = dirty
 [submodule "flycheck"]
 	path = lib/flycheck
 	url = git@github.com:flycheck/flycheck.git
+    ignore = dirty
 [submodule "flycheck-color-mode-line"]
 	path = lib/flycheck-color-mode-line
 	url = git@github.com:flycheck/flycheck-color-mode-line.git
+    ignore = dirty
+
 [submodule "flycheck-elm"]
 	path = lib/flycheck-elm
 	url = git@github.com:bsermons/flycheck-elm.git
-
+    ignore = dirty
 [submodule "flycheck-popup-tip"]
 	path = lib/flycheck-popup-tip
 	url = git@github.com:flycheck/flycheck-popup-tip.git
+    ignore = dirty
 [submodule "flycheck-pos-tip"]
 	path = lib/flycheck-pos-tip
 	url = git@github.com:flycheck/flycheck-pos-tip.git
+    ignore = dirty
 [submodule "ghub"]
 	path = lib/ghub
 	url = git@github.com:magit/ghub.git
+    ignore = dirty
 [submodule "git-modes"]
 	path = lib/git-modes
 	url = git@github.com:magit/git-modes.git
+    ignore = dirty
 [submodule "goto-chg"]
 	path = lib/goto-chg
 	url = git@github.com:emacs-evil/goto-chg.git
+    ignore = dirty
 [submodule "gv-define-simple-setter"]
 	path = lib/gv-define-simple-setter
 	url = https://github.com/emacscollective/emacs.g.git
+    ignore = dirty
 [submodule "haskell-mode"]
 	path = lib/haskell-mode
 	url = git@github.com:haskell/haskell-mode.git
+    ignore = dirty
 [submodule "hydra"]
 	path = lib/hydra
 	url = git@github.com:abo-abo/hydra.git
+    ignore = dirty
 [submodule "ivy"]
 	path = lib/ivy
 	url = git@github.com:abo-abo/swiper.git
+    ignore = dirty
 [submodule "logstash-conf"]
 	path = lib/logstash-conf
 	url = git@github.com:Wilfred/logstash-conf.el.git
+    ignore = dirty
 [submodule "magit"]
 	path = lib/magit
 	url = git@github.com:magit/magit.git
 	info-path = Documentation
+    ignore = dirty
 [submodule "magit-popup"]
 	path = lib/magit-popup
 	url = git@github.com:magit/magit-popup.git
+    ignore = dirty
 [submodule "material-theme"]
 	path = lib/material-theme
 	url = git@github.com:cpaulik/emacs-material-theme.git
+    ignore = dirty
 [submodule "mmm-mode"]
 	path = lib/mmm-mode
 	url = git@github.com:purcell/mmm-mode.git
+    ignore = dirty
 [submodule "packed"]
 	path = lib/packed
 	url = git@github.com:emacscollective/packed.git
+    ignore = dirty
 [submodule "popup"]
 	path = lib/popup
 	url = git@github.com:auto-complete/popup-el.git
+    ignore = dirty
 [submodule "pos-tip"]
 	path = lib/pos-tip
 	url = git@github.com:pitkali/pos-tip.git
+    ignore = dirty
 [submodule "prettier-js"]
 	path = lib/prettier-js
 	url = git@github.com:prettier/prettier-emacs.git
+    ignore = dirty
 [submodule "projectile"]
 	path = lib/projectile
 	url = git@github.com:bbatsov/projectile.git
+    ignore = dirty
 [submodule "rainbow-delimiters"]
 	path = lib/rainbow-delimiters
 	url = git@github.com:Fanael/rainbow-delimiters.git
+    ignore = dirty
 [submodule "ripgrep"]
 	path = lib/ripgrep
 	url = git@github.com:nlamirault/ripgrep.el.git
+    ignore = dirty
 [submodule "s"]
 	path = lib/s
 	url = git@github.com:magnars/s.el.git
+    ignore = dirty
 [submodule "shackle"]
 	path = lib/shackle
 	url = git@github.com:wasamasa/shackle.git
+    ignore = dirty
 [submodule "smartparens"]
 	path = lib/smartparens
 	url = git@github.com:Fuco1/smartparens.git
+    ignore = dirty
 [submodule "ssass-mode"]
 	path = lib/ssass-mode
 	url = git@github.com:AdamNiederer/ssass-mode.git
+    ignore = dirty
 [submodule "swiper"]
 	path = lib/swiper
 	url = https://github.com/emacscollective/emacs.g.git
+    ignore = dirty
 [submodule "use-package"]
 	path = lib/use-package
 	url = git@github.com:jwiegley/use-package.git
+    ignore = dirty
 [submodule "vue-html-mode"]
 	path = lib/vue-html-mode
 	url = git@github.com:AdamNiederer/vue-html-mode.git
+    ignore = dirty
 [submodule "vue-mode"]
 	path = lib/vue-mode
 	url = git@github.com:CodeFalling/vue-mode.git
+    ignore = dirty
 [submodule "with-editor"]
 	path = lib/with-editor
 	url = git@github.com:magit/with-editor.git
+    ignore = dirty
+[submodule "yaml-mode"]
+	path = lib/yaml-mode
+	url = git@github.com:yoshiki/yaml-mode.git
+    ignore = dirty
