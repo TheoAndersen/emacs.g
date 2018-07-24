@@ -73,7 +73,7 @@ by the Projectile project switcher"
     ;; Perform cleanup before adding projects
     (projectile-cleanup-known-projects)
     ;;Find the projects in the structure and add them
-    (let* ((default-directory "~/Documents/projects/")
+    (let* ((default-directory "~/projects/")
            (project-site-globs '("*" "*/*" "github.com/*/*" "gitlab.com/*/*")))
       (dolist (project-site-glob project-site-globs)
         (let ((projects-glob (expand-file-name project-site-glob)))
