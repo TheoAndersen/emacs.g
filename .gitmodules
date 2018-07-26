@@ -4,6 +4,7 @@
 [submodule "0blayout"]
 	path = lib/0blayout
 	url = git@github.com:etu/0blayout-mode.git
+	ignore = dirty
 [submodule "ace-jump-buffer"]
 	path = lib/ace-jump-buffer
 	url = git@github.com:waymondo/ace-jump-buffer.git
@@ -35,6 +36,7 @@
 [submodule "company-jedi"]
 	path = lib/company-jedi
 	url = git@github.com:syohex/emacs-company-jedi.git
+	ignore = dirty
 [submodule "company-statistics"]
 	path = lib/company-statistics
 	url = git@github.com:company-mode/company-statistics.git
@@ -67,6 +69,7 @@
 [submodule "docker"]
 	path = lib/docker
 	url = git@github.com:Silex/docker.el.git
+	ignore = dirty
 [submodule "docker-compose-mode"]
 	path = lib/docker-compose-mode
 	url = git@github.com:meqif/docker-compose-mode.git
@@ -74,6 +77,7 @@
 [submodule "dockerfile-mode"]
 	path = lib/dockerfile-mode
 	url = git@github.com:spotify/dockerfile-mode.git
+	ignore = dirty
 [submodule "dotnet"]
 	path = lib/dotnet
 	url = git@github.com:julienXX/dotnet.el.git
@@ -89,6 +93,7 @@
 [submodule "elpy"]
 	path = lib/elpy
 	url = git@github.com:jorgenschaefer/elpy.git
+	ignore = dirty
 [submodule "emacsql"]
 	path = lib/emacsql
 	url = git@github.com:skeeto/emacsql.git
@@ -121,6 +126,7 @@
 [submodule "find-file-in-project"]
 	path = lib/find-file-in-project
 	url = git@github.com:technomancy/find-file-in-project.git
+	ignore = dirty
 [submodule "fisk"]
 	path = lib/fisk
 	url = https://github.com/emacscollective/emacs.g.git
@@ -166,6 +172,10 @@
 	path = lib/haskell-mode
 	url = git@github.com:haskell/haskell-mode.git
 	ignore = dirty
+[submodule "highlight-indent-guides"]
+	path = lib/highlight-indent-guides
+	url = git@github.com:DarthFennec/highlight-indent-guides.git
+	ignore = dirty
 [submodule "hydra"]
 	path = lib/hydra
 	url = git@github.com:abo-abo/hydra.git
@@ -198,9 +208,11 @@
 [submodule "neotree"]
 	path = lib/neotree
 	url = git@github.com:jaypei/emacs-neotree.git
+	ignore = dirty
 [submodule "nginx-mode"]
 	path = lib/nginx-mode
 	url = git@github.com:ajc/nginx-mode.git
+	ignore = dirty
 [submodule "packed"]
 	path = lib/packed
 	url = git@github.com:emacscollective/packed.git
@@ -224,15 +236,19 @@
 [submodule "pyenv-mode"]
 	path = lib/pyenv-mode
 	url = git@github.com:proofit404/pyenv-mode.git
+	ignore = dirty
 [submodule "python-mode"]
 	path = lib/python-mode
 	url = git@gitlab.com:python-mode-devs/python-mode.git
+	ignore = dirty
 [submodule "pythonic"]
 	path = lib/pythonic
 	url = git@github.com:proofit404/pythonic.git
+	ignore = dirty
 [submodule "pyvenv"]
 	path = lib/pyvenv
 	url = git@github.com:jorgenschaefer/pyvenv.git
+	ignore = dirty
 [submodule "rainbow-delimiters"]
 	path = lib/rainbow-delimiters
 	url = git@github.com:Fanael/rainbow-delimiters.git
@@ -240,6 +256,7 @@
 [submodule "restclient"]
 	path = lib/restclient
 	url = git@github.com:pashky/restclient.el.git
+	ignore = dirty
 [submodule "ripgrep"]
 	path = lib/ripgrep
 	url = git@github.com:nlamirault/ripgrep.el.git
@@ -251,6 +268,7 @@
 [submodule "seti-theme"]
 	path = lib/seti-theme
 	url = git@github.com:caisah/seti-theme.git
+	ignore = dirty
 [submodule "shackle"]
 	path = lib/shackle
 	url = git@github.com:wasamasa/shackle.git
@@ -290,3 +308,4 @@
 [submodule "yapfify"]
 	path = lib/yapfify
 	url = git@github.com:JorisE/yapfify.git
+	ignore = dirty

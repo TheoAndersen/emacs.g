@@ -9,7 +9,7 @@
         "--single-quote" "--print-width 120" ))
   )
 
-
+(setq-default truncate-lines nil)
 
 (use-package rainbow-delimiters
   :hook (prog-mode . rainbow-delimiters-mode))
@@ -21,6 +21,12 @@
   (show-smartparens-global-mode))
 
 
+(use-package highlight-indent-guides
+  ;; lines at indents
+  :config
+  (setq highlight-indent-guides-method 'character)
+  (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
+)
 
 (defun bury-compile-buffer-if-successful (buffer string)
  "Bury a compilation buffer if succeeded without warnings "

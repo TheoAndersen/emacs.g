@@ -8,7 +8,7 @@
 /places
 /backups
 /eshell
-/company-statistics-cache.el
+company-statistics-cache.el
 /projectile-bookmarks.eld
 *.elc
 *.cache
@@ -16,3 +16,4 @@
 *.elc
 places
 history
+company-statistics-cache.el
