@@ -84,8 +84,11 @@ by the Projectile project switcher"
     (projectile-add-known-project "~/.emacs.d/"))
   :init
   (progn
-    (projectile-global-mode)
     (setq projectile-enable-caching t)
+    )
+  :config
+  (mg/update-projectile-project-list)
+  (projectile-mode)
     (add-to-list 'projectile-globally-ignored-directories "elpa")
     (add-to-list 'projectile-globally-ignored-directories ".cache")
     (add-to-list 'projectile-globally-ignored-directories "node_modules")
@@ -96,9 +99,6 @@ by the Projectile project switcher"
     (add-to-list 'projectile-globally-ignored-directories ".DS_Store")
     (add-to-list 'projectile-globally-ignored-directories "TAGS")
     (add-to-list 'projectile-globally-ignored-directories ".*")
-    )
-  :config
-  (mg/update-projectile-project-list)
   )
 
 (use-package counsel-projectile
